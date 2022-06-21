@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 43.75%;
+  }
+  .other-infos {
+    width: 100%;
+  }
+  .results-top {
+    flex-direction: column;
+  }
+  .desc-title {
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 37.5%;
+  }
+}
